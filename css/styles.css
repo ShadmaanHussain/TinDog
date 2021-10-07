@@ -24,7 +24,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /* Navigation Bar */
@@ -60,11 +60,16 @@ body {
 .title-img {
   width: 60%;
   transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 #features {
   padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
